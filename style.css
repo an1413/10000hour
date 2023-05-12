@@ -182,10 +182,6 @@ main .btn-exc::after {
 
 /* main 스타일 끝 */
 
-/* modal 스타일 시작 */
-
-
-/* modal 스타일 끝 */
 
 /* footer 스타일 시작 */
 .cont-footer img {
@@ -197,3 +193,50 @@ main .btn-exc::after {
     line-height: 1.4;
 }
 /* footer 스타일 끝 */
+
+
+/* modal 스타일 시작 */
+
+.modal-wrap {
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-wrap h2 {
+    font-size: 96px;
+    color: #5B2386;
+    line-height: 105.6px;
+    margin-bottom: 4px;
+}
+
+.modal-wrap h3 {
+    color: #5B2386;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 70px;
+}
+
+.modal-wrap img {
+    margin: 0 auto;
+    width: 400px;
+    height: 407px;
+    margin-bottom: 90px;
+}
+
+.modal-wrap .btn-close {
+    color: #5B2386;
+    padding: 21px 49px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+
+    background-color: #FCEE21;
+    width: 518px;
+    height: 66px;
+    border-radius: 56px;
+    margin: 0 auto;
+}
+
+/* modal 스타일 끝 */
