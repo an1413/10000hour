@@ -39,6 +39,7 @@ header {
     position: relative;
     max-width: 564px;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 header .tit-law img {
@@ -57,3 +58,142 @@ header .tit-law img {
     background-image: url(./images/title_bg.png);
     background-size: contain;
 }
+
+header .ima-txt {
+    width: 486px;
+} 
+
+header .txt-desc {
+    margin: 0 auto;
+    max-width: 475px;
+    position: relative;
+    margin-top: 40px;
+    line-height: 1.2;
+}
+
+header .txt-desc::before,
+header .txt-desc::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+header .txt-desc::before {
+    background-image: url(./images/txt-left.png);
+    left: 5%;
+    margin-top: -10px;
+}
+
+header .txt-desc::after {
+    background-image: url(./images/txt-right.png);
+    right: 5%;
+    margin-top: -70px;
+}
+
+header .txt-desc strong {
+    font-size: 1.2em;
+}
+
+/* header 스타일 끝 */
+
+
+/* main 스타일 시작 */
+
+main {
+    margin-bottom: 130px;
+}
+
+main .txt-wannabe {
+    font-size: 24px;
+    line-height: 1;
+}
+
+main .txt-time {
+    font-size: 24px;
+    line-height: 1;
+}
+
+main .cont-input {
+    margin-bottom: 120px;
+}
+
+main .cont-section .txt-time {
+    margin-bottom: 130px;
+}
+
+main input {
+    max-width: 228px;
+    height: 57px;
+    color: #BABCBE;
+    border-radius: 7px;
+    text-align: center;
+}
+
+main .btn-exc {
+    margin: 110px 0 0 ;
+    padding: 21px 49px 21px 48px;
+    border-radius: 56px;
+    max-width: 565px;
+    height: 66px;
+    background-color: #FCEE21;
+    position: relative;
+
+    color: #5B2386;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+main .btn-exc::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 64px;
+    height: 72px;
+    background-image: url(./images/hand.png);
+    right: -70px;
+    bottom: -20px;
+}
+
+.cont-section .txt-wannabe strong {
+    font-size: 72px;
+}
+
+.cont-section .txt-time strong {
+    font-size: 72px;
+}
+
+.cont-section button {
+    padding: 21px 49px 21px 48px;
+    color: #5B2386;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 56px; 
+}
+
+.cont-section .btn-go {
+    background-color: #FCEE21;
+    margin-right: 14px;
+}
+
+/* main 스타일 끝 */
+
+/* modal 스타일 시작 */
+
+
+/* modal 스타일 끝 */
+
+/* footer 스타일 시작 */
+.cont-footer img {
+    width: 120px;
+}
+
+.cont-footer p {
+    font-size: 12px;
+    line-height: 1.4;
+}
+/* footer 스타일 끝 */
