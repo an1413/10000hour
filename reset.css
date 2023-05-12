@@ -8,6 +8,18 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ .a11y-hidden {
+   clip: rect(1px, 1px, 1px, 1px);
+   clip-path: inset(50%);
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+ }
+ 
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
