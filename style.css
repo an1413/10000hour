@@ -21,6 +21,39 @@
 }
 
 
-body {
-    
+.wrapper {
+    font-family: 'GmarketSansMedium';
+    color: #fff;
+    background-color: #9f26f0;
+    text-align: center;
+    padding: 150px 0 70px;
+}
+
+/* header 스타일 */
+
+header {
+    margin-bottom: 90px;
+}
+
+.tit-law {
+    position: relative;
+    max-width: 564px;
+    margin: auto;
+}
+
+header .tit-law img {
+    width: 100%;
+}
+
+.tit-law::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    top: 50%;
+    left: 50%;
+    margin: -112px 0 0 -112px;
+    background-image: url(./images/title_bg.png);
+    background-size: contain;
 }
