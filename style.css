@@ -186,6 +186,7 @@ main .btn-exc::after {
 /* footer 스타일 시작 */
 .cont-footer img {
     width: 120px;
+    margin: 0 auto 20px;
 }
 
 .cont-footer p {
@@ -197,46 +198,50 @@ main .btn-exc::after {
 
 /* modal 스타일 시작 */
 
-.modal-wrap {
-    padding: 50px 50px;
+#modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#modal .modal-wrap {
+    padding: 70px 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #5B2386;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .modal-wrap h2 {
-    font-size: 96px;
-    color: #5B2386;
-    line-height: 105.6px;
-    margin-bottom: 4px;
+    font-size: 60px;
 }
 
 .modal-wrap h3 {
-    color: #5B2386;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    margin-bottom: 70px;
+    font-size: 30px;
 }
 
 .modal-wrap img {
-    margin: 0 auto;
-    width: 400px;
-    height: 407px;
-    margin-bottom: 90px;
+    max-width: 340px;
+    margin: 0 auto ;
+    max-height: 300px;
 }
 
 .modal-wrap .btn-close {
-    color: #5B2386;
-    padding: 21px 49px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1;
-
-    background-color: #FCEE21;
-    width: 518px;
-    height: 66px;
-    border-radius: 56px;
-    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 /* modal 스타일 끝 */
