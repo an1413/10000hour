@@ -1,0 +1,77 @@
+main {
+    margin-bottom: 130px;
+}
+
+main .txt-wannabe {
+    font-size: 24px;
+    line-height: 1;
+}
+
+main .txt-time {
+    font-size: 24px;
+    line-height: 1;
+}
+
+main .cont-input {
+    margin-bottom: 120px;
+}
+
+main .cont-section .txt-time {
+    margin-bottom: 130px;
+}
+
+main input {
+    max-width: 228px;
+    height: 57px;
+    color: #BABCBE;
+    border-radius: 7px;
+    text-align: center;
+}
+
+main .btn-exc {
+    margin: 110px 0 0 ;
+    padding: 21px 49px 21px 48px;
+    border-radius: 56px;
+    max-width: 565px;
+    height: 66px;
+    background-color: #FCEE21;
+    position: relative;
+
+    color: #5B2386;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+main .btn-exc::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 64px;
+    height: 72px;
+    background-image: url(../../images//hand.png);
+    right: -70px;
+    bottom: -20px;
+}
+
+.cont-section .txt-wannabe strong {
+    font-size: 72px;
+}
+
+.cont-section .txt-time strong {
+    font-size: 72px;
+}
+
+.cont-section button {
+    padding: 21px 49px 21px 48px;
+    color: #5B2386;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 56px; 
+}
+
+.cont-section .btn-go {
+    background-color: #FCEE21;
+    margin-right: 14px;
+}
