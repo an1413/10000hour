@@ -3,6 +3,7 @@ import Footer from "./Components/footer/Footer";
 import Header from "./Components/header/Header";
 import Main from "./Components/main/Main";
 import Modal from "./Components/modal/Modal";
+import './index.css'
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
   // }
 
   return (
-    <div id="app">
+    <div className="wrapper">
       <Header />
       <Main modalOpen={modalOpen}/>
       <Footer />
