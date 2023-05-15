@@ -35,7 +35,7 @@ export default function Main(props) {
             <button type="button" className="btn-exc">나는 며칠동안 훈련을 해야 1만시간이 될까?</button>
         </form>
 
-        {((dday > 1) && (dday < 24)) && <section className="cont-section">}
+        {((dday > 1) && (dday < 24)) && <section className="cont-section">
             <h3 className="a11y-hidden">결과 확인</h3>
             <p className="txt-wannabe">
                 당신은 <strong>{expert}</strong> 전문가가 되기 위해서
@@ -45,7 +45,7 @@ export default function Main(props) {
             </p>
             <button className="btn-go" type="button" onClick={props.modalOpen}>훈련하러가기 GO!GO!</button>
             <button className="btn-share" type="button">공유하기</button>
-        </section>
+        </section>}
     </main>
   )
 }
